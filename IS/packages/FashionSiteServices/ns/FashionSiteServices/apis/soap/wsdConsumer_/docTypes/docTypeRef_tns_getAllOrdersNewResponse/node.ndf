@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">FashionSiteServices.apis.soap.wsdConsumer_.docTypes:docTypeRef_tns_getAllOrdersNewResponse</value>
+    <value name="node_pkg">FashionSiteServices</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">daf6b4a855de4609a8f2fe3d4b0f7daa</value>
+    <value name="docTypeDomain">965205e1a2e64088add08e6ce36b28cb</value>
+    <value name="originURI">http://LAPTOP-8BHA1DH5:5555/ws/FashionSiteServices.apis.soap:wsdV1?WSDL</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">orders</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">FashionSiteServices.apis.soap.wsdConsumer_.docTypes:docTypeRef_tns_orderCDM</value>
+      </record>
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">http://LAPTOP-8BHA1DH5/FashionSiteServices.apis.soap:wsdV1</value>
+      <value name="ncName">getAllOrdersNewResponse</value>
+    </record>
+    <value name="schemaRegistered">true</value>
+    <value name="modifiable">false</value>
+    <value name="parentWsd">FashionSiteServices.apis.soap:wsdConsumer</value>
+  </record>
+</Values>
